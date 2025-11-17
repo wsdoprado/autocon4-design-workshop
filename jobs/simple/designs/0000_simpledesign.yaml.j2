@@ -2,7 +2,7 @@
 manufacturers:
   - "!create_or_update:name": "{{ manufacturer }}"
     description: "{{ manufacturer }} Systems"
-    platform:
+    platforms:
       - "!create_or_update:name": "Cisco IOS"
         manufacturer__name: "{{ manufacturer }}"
         network_driver: "cisco_ios"
